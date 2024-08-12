@@ -177,37 +177,8 @@ html::-webkit-scrollbar-thumb {
 .home-content h3 {
   position: relative;
   font-size: 3.5rem;
-  color: #252839;
-  -webkit-text-stroke: #252839;
-  text-transform: uppercase;
-}
-
-.home-content h3::before {
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
   color: #ca0b0b;
-  -webkit-text-stroke: #000000;
-  border-right: 2px solid #ca0b0b;
-  overflow: hidden;
-  animation: animate 5s linear infinite;
-}
-
-@keyframes animate {
-
-  0%,
-  10%,
-  100% {
-    width: 0;
-  }
-
-  70%,
-  90% {
-    width: 100%;
-  }
+  text-transform: uppercase;
 }
 
 .home-content p {
